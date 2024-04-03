@@ -1,0 +1,9 @@
+{
+  "name": "PasteFromClipboard",
+  "version_number": "1.0.0",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "Thought it was weird that you couldn't paste text from your clipboard into the game, so I made this. Doesn't support emojis or anything fancy, but it should work for most text. Press Ctrl+V to paste text from your clipboard into the game",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

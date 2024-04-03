@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+        <CWGamePath>D:\SteamLibrary\steamapps\common\Content Warning_Modded</CWGamePath>
+        <BepInExPath>$(CWGamePath)\BepInEx</BepInExPath>
+        <CorlibPath>$(CWGamePath)\Content Warning_Data\Managed</CorlibPath>
+        <PublicizedAssembliesPath>$(CWGamePath)\Content Warning_Data\Managed\publicized_assemblies</PublicizedAssembliesPath>
+        <CopyOutputDLLPath>$(CWGamePath)\BepInEx\plugins</CopyOutputDLLPath> <!-- This is where the output DLL will be copied to after building. The templates support doing this for up to three locations. Duplicate this line and append a number. Example below -->
+        <!--<CopyOutputDLLPath2>$(CWGamePath)\BepInEx\plugins</CopyOutputDLLPath2>-->
+        <!--<CopyOutputDLLPath3>$(CWGamePath)\BepInEx\plugins</CopyOutputDLLPath3>-->
+        <AfterTargets>AfterBuild</AfterTargets>
+    </PropertyGroup>
+</Project>
